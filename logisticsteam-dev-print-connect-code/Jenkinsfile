@@ -1,0 +1,163 @@
+pipeline {
+  agent any
+  stages {
+    stage('BuildOpera8') {
+        agent { docker {
+            image 'electronuserland/builder:14-wine-07.23'
+            args '-u root:root'
+            reuseNode true
+        } }
+        environment {
+          NODE_ENV = 'development'
+        }
+      stages {
+        stage('log version info') {
+            steps {
+              sh 'npm install'
+              sh 'find node_modules/sqlite3/lib/binding -type d'
+              sh 'cp -r lib/sqlite3/* node_modules/sqlite3/lib/binding/'
+              sh 'find node_modules/sqlite3/lib/binding -type d'
+              sh 'npm run electron:buildSaas'
+            }
+       }
+      }
+    }
+    stage('DeployOpera8') {
+            steps {
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/latest.yml ubuntu@192.168.10.46:/data/wisedoc/opera8print'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.exe ubuntu@192.168.10.46:/data/wisedoc/opera8print'
+              sh '''
+                  LATEST_HUB=$(ls -t "dist_electron/"*"Hub"*.exe | head -n1)
+                  scp -i /data/android/android-sdk/deploy.pem "$LATEST_HUB" ubuntu@192.168.60.10:/data/opera8download/local-print-connect.exe
+              '''
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.msi ubuntu@192.168.10.46:/data/wisedoc/opera8print'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.exe.blockmap	 ubuntu@192.168.10.46:/data/wisedoc/opera8print'
+
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.exe ubuntu@192.168.10.46:/data/wisedoc/opera8print'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.exe ubuntu@192.168.60.10:/data/wisedoc/opera8print'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.msi ubuntu@192.168.10.46:/data/wisedoc/opera8print'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.exe.blockmap	 ubuntu@192.168.10.46:/data/wisedoc/opera8print'
+
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.exe ubuntu@192.168.10.46:/data/wisedoc/itemprint'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.exe ubuntu@192.168.60.10:/data/wisedoc/itemprint'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.msi ubuntu@192.168.10.46:/data/wisedoc/itemprint'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.exe.blockmap	 ubuntu@192.168.10.46:/data/wisedoc/itemprint'
+
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/latest.yml ubuntu@192.168.10.47:/data/wisedoc/opera8print'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.exe ubuntu@192.168.10.47:/data/wisedoc/opera8print'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.msi ubuntu@192.168.10.47:/data/wisedoc/opera8print'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.exe.blockmap	 ubuntu@192.168.10.47:/data/wisedoc/opera8print'
+
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.exe ubuntu@192.168.10.47:/data/wisedoc/opera8print'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.exe ubuntu@192.168.10.47:/data/wisedoc/opera8print'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.msi ubuntu@192.168.10.47:/data/wisedoc/opera8print'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.exe.blockmap	 ubuntu@192.168.10.47:/data/wisedoc/opera8print'
+
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.exe ubuntu@192.168.10.47:/data/wisedoc/itemprint'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.exe ubuntu@192.168.10.47:/data/wisedoc/itemprint'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.msi ubuntu@192.168.10.47:/data/wisedoc/itemprint'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.exe.blockmap	 ubuntu@192.168.10.47:/data/wisedoc/itemprint'
+
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/latest.yml ubuntu@192.168.8.100:/data/wisedoc/opera8print'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.exe ubuntu@192.168.8.100:/data/wisedoc/opera8print'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.msi ubuntu@192.168.8.100:/data/wisedoc/opera8print'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.exe.blockmap	 ubuntu@192.168.8.100:/data/wisedoc/opera8print'
+
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.exe ubuntu@192.168.8.100:/data/wisedoc/opera8print'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.exe ubuntu@192.168.8.100:/data/wisedoc/opera8print'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.msi ubuntu@192.168.8.100:/data/wisedoc/opera8print'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.exe.blockmap	 ubuntu@192.168.8.100:/data/wisedoc/opera8print'
+
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.exe ubuntu@192.168.8.100:/data/wisedoc/itemprint'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.exe ubuntu@192.168.8.100:/data/wisedoc/itemprint'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.msi ubuntu@192.168.8.100:/data/wisedoc/itemprint'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.exe.blockmap	 ubuntu@192.168.8.100:/data/wisedoc/itemprint'
+
+
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/latest.yml ubuntu@192.168.160.198:/data/itemfiles/opera8print'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.exe ubuntu@192.168.160.198:/data/itemfiles/opera8print'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.exe ubuntu@192.168.160.198:/data/itemfiles/print-hub-connect.exe'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.msi ubuntu@192.168.160.198:/data/itemfiles/opera8print'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Hub*.exe.blockmap	 ubuntu@192.168.160.198:/data/itemfiles/opera8print'
+
+            }
+
+    }
+
+     stage('BuildUnis') {
+        agent { docker {
+            image 'electronuserland/builder:14-wine-07.23'
+            args '-u root:root'
+            reuseNode true
+        } }
+        environment {
+          NODE_ENV = 'development'
+        }
+      stages {
+        stage('log version info') {
+            steps {
+              sh 'npm --version'
+              sh 'npm install'
+              sh 'find node_modules/sqlite3/lib/binding -type d'
+              sh 'cp -r lib/sqlite3/* node_modules/sqlite3/lib/binding/'
+              sh 'find node_modules/sqlite3/lib/binding -type d'
+              sh 'npm run electron:buildUnis'
+            }
+       }
+      }
+    }
+    stage('DeployUnis') {
+            steps {
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/latest.yml ubuntu@192.168.10.46:/data/wisedoc/unisprint'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Unis*.exe ubuntu@192.168.10.46:/data/wisedoc/unisprint'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Unis*.msi ubuntu@192.168.10.46:/data/wisedoc/unisprint'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Unis*.exe.blockmap	 ubuntu@192.168.10.46:/data/wisedoc/unisprint'
+
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/latest.yml ubuntu@192.168.10.47:/data/wisedoc/unisprint'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Unis*.exe ubuntu@192.168.10.47:/data/wisedoc/unisprint'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Unis*.msi ubuntu@192.168.10.47:/data/wisedoc/unisprint'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Unis*.exe.blockmap	 ubuntu@192.168.10.47:/data/wisedoc/unisprint'
+
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/latest.yml ubuntu@192.168.8.100:/data/wisedoc/unisprint'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Unis*.exe ubuntu@192.168.8.100:/data/wisedoc/unisprint'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Unis*.msi ubuntu@192.168.8.100:/data/wisedoc/unisprint'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Unis*.exe.blockmap	 ubuntu@192.168.8.100:/data/wisedoc/unisprint'
+            }
+    }
+
+
+     stage('Buildlso') {
+        agent { docker {
+            image 'electronuserland/builder:14-wine-07.23'
+            args '-u root:root'
+            reuseNode true
+        } }
+        environment {
+          NODE_ENV = 'production'
+        }
+      stages {
+        stage('log version info') {
+            steps {
+              sh 'npm --version'
+              sh 'npm install'
+              sh 'find node_modules/sqlite3/lib/binding -type d'
+              sh 'cp -r lib/sqlite3/* node_modules/sqlite3/lib/binding/'
+              sh 'find node_modules/sqlite3/lib/binding -type d'
+              sh 'npm run electron:buildLSO'
+            }
+       }
+      }
+    }
+
+
+    stage('Deploylso') {
+        steps {
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/latest.yml ubuntu@192.168.150.198:/data/wisedoc/lsoprint'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Local*.exe ubuntu@192.168.150.198:/data/wisedoc/lsoprint'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Local*.msi ubuntu@192.168.150.198:/data/wisedoc/lsoprint'
+              sh 'scp -i /data/android/android-sdk/deploy.pem dist_electron/*Local*.exe.blockmap	 ubuntu@192.168.150.198:/data/wisedoc/lsoprint'
+        }
+    }
+
+  }
+}

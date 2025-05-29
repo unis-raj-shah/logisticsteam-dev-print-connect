@@ -1,0 +1,11 @@
+/node_modules
+/dist
+/dist_electron
+/configs
+/Figma_Variables
+
+.eslintrc.js
+babel.config.js
+postcss.config.js
+tailwind.config.js
+jest.config.ts

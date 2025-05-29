@@ -1,0 +1,384 @@
+{
+  "print_logs": [
+    {
+      "timestamp": "2025-05-27T18:01:33.775Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: FDEG\nPRO Number: 289098679422\nCustomer Number: W61793648\nP/L Number: 0276192\nTotal Cartons: 1 CTNS\nBarcode: SLP-171063234\nPallet: 1 OF 1",
+      "jobId": "64a0dad6-88f5-4e4b-a6b6-5519bd290734",
+      "status": "success"
+    },
+    {
+      "timestamp": "2025-05-27T18:24:00.407Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: FDEG\nPRO Number: 289098679422\nCustomer Number: W61793648\nP/L Number: 0276192\nTotal Cartons: 1 CTNS\nBarcode: SLP-171063234\nPallet: 1 OF 1",
+      "jobId": "3de47e23-3876-486f-8a8a-5be7a15c0f50",
+      "status": "success"
+    },
+    {
+      "timestamp": "2025-05-27T18:26:07.963Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: FDEG\nPRO Number: 289098952012\nCustomer Number: W61793644\nP/L Number: 0276189\nTotal Cartons: 1 CTNS\nBarcode: SLP-171064718\nPallet: 1 OF 1",
+      "jobId": "16da7035-28a1-47c0-85d5-1bb1af59019c",
+      "status": "success"
+    },
+    {
+      "timestamp": "2025-05-27T18:35:02.264Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: FDEG\nPRO Number: 289098952012\nCustomer Number: W61793644\nP/L Number: 0276189\nTotal Cartons: 1 CTNS\nBarcode: SLP-171064718\nPallet: 1 OF 1",
+      "jobId": "31647e87-c532-45cc-a980-f913e7a2d1a5",
+      "status": "success"
+    },
+    {
+      "timestamp": "2025-05-27T18:38:00.680Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: FDEG\nPRO Number: 289098959348\nCustomer Number: W61793632\nP/L Number: 0276181\nTotal Cartons: 1 CTNS\nBarcode: SLP-171064885\nPallet: 1 OF 1",
+      "jobId": "29ad44a1-3fb1-498b-958d-8529f6cb2cae",
+      "status": "success"
+    },
+    {
+      "timestamp": "2025-05-27T18:44:36.297Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: FDEG\nPRO Number: 289098686376\nCustomer Number: W61793636\nP/L Number: 0276184\nTotal Cartons: 1 CTNS\nBarcode: SLP-171065077\nPallet: 1 OF 1",
+      "jobId": "d354e05b-7fe7-4529-86e3-104893afc3b5",
+      "status": "success"
+    },
+    {
+      "timestamp": "2025-05-27T19:22:26.875Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: UTPA\nCustomer Number: 94412\nP/L Number: 94412\nTotal Cartons: 578 CTNS\nBarcode: SLP-171042483\nPallet: 1 OF 2",
+      "jobId": "d4c8b1e6-2b55-4d3a-b65e-e448da8e8852",
+      "status": "success"
+    },
+    {
+      "timestamp": "2025-05-27T19:37:33.752Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: UTPA\nCustomer Number: 94412\nP/L Number: 94412\nTotal Cartons: 578 CTNS\nBarcode: SLP-171042483\nPallet: 1 OF 2",
+      "jobId": "9ec201f9-68ee-4045-aef7-7832e5816b04",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-27T19:45:03.061Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: UTPA\nCustomer Number: 94412\nP/L Number: 94412\nTotal Cartons: 578 CTNS\nBarcode: SLP-171042483\nPallet: 1 OF 2",
+      "jobId": "33e300dc-6779-4695-b4ee-dfaf6b48f116_1",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-27T19:45:03.061Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: UTPA\nCustomer Number: 94412\nP/L Number: 94412\nTotal Cartons: 578 CTNS\nBarcode: SLP-171042484\nPallet: 2 OF 2",
+      "jobId": "33e300dc-6779-4695-b4ee-dfaf6b48f116_2",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-27T20:00:42.507Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: ODFL\nCustomer Number: SO218913\nP/L Number: UWS123618\nTotal Cartons: 18 CTNS\nBarcode: SLP-171064914\nPallet: 1 OF 1",
+      "jobId": "a62558d1-abf6-44a1-80c9-37d278081380",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-27T21:07:37.325Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: FLOK\nCustomer Number: SO218716\nP/L Number: UWS123453\nTotal Cartons: 692 CTNS\nBarcode: SLP-171039361\nPallet: 1 OF 8",
+      "jobId": "3f3db659-e8f7-40dd-8934-dcc31be1f091_1",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-27T21:07:37.325Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: FLOK\nCustomer Number: SO218716\nP/L Number: UWS123453\nTotal Cartons: 692 CTNS\nBarcode: SLP-171039362\nPallet: 2 OF 8",
+      "jobId": "3f3db659-e8f7-40dd-8934-dcc31be1f091_2",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-27T21:07:37.325Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: FLOK\nCustomer Number: SO218716\nP/L Number: UWS123453\nTotal Cartons: 692 CTNS\nBarcode: SLP-171039363\nPallet: 3 OF 8",
+      "jobId": "3f3db659-e8f7-40dd-8934-dcc31be1f091_3",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-27T21:07:37.325Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: FLOK\nCustomer Number: SO218716\nP/L Number: UWS123453\nTotal Cartons: 692 CTNS\nBarcode: SLP-171039364\nPallet: 4 OF 8",
+      "jobId": "3f3db659-e8f7-40dd-8934-dcc31be1f091_4",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-27T21:07:37.325Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: FLOK\nCustomer Number: SO218716\nP/L Number: UWS123453\nTotal Cartons: 692 CTNS\nBarcode: SLP-171039365\nPallet: 5 OF 8",
+      "jobId": "3f3db659-e8f7-40dd-8934-dcc31be1f091_5",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-27T21:07:37.325Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: FLOK\nCustomer Number: SO218716\nP/L Number: UWS123453\nTotal Cartons: 692 CTNS\nBarcode: SLP-171039366\nPallet: 6 OF 8",
+      "jobId": "3f3db659-e8f7-40dd-8934-dcc31be1f091_6",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-27T21:07:37.325Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: FLOK\nCustomer Number: SO218716\nP/L Number: UWS123453\nTotal Cartons: 692 CTNS\nBarcode: SLP-171039367\nPallet: 7 OF 8",
+      "jobId": "3f3db659-e8f7-40dd-8934-dcc31be1f091_7",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-27T21:07:37.325Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: FLOK\nCustomer Number: SO218716\nP/L Number: UWS123453\nTotal Cartons: 692 CTNS\nBarcode: SLP-171039368\nPallet: 8 OF 8",
+      "jobId": "3f3db659-e8f7-40dd-8934-dcc31be1f091_8",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-28T18:55:35.718Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: UNFQ\nCustomer Number: SO218977\nP/L Number: UWS123669\nTotal Cartons: 470 CTNS\nBarcode: SLP-171082299\nPallet: 1 OF 4",
+      "jobId": "b4acd603-906d-4e5d-8520-744cebf630a2_1",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-28T18:55:35.718Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: UNFQ\nCustomer Number: SO218977\nP/L Number: UWS123669\nTotal Cartons: 470 CTNS\nBarcode: SLP-171082300\nPallet: 2 OF 4",
+      "jobId": "b4acd603-906d-4e5d-8520-744cebf630a2_2",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-28T18:55:35.718Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: UNFQ\nCustomer Number: SO218977\nP/L Number: UWS123669\nTotal Cartons: 470 CTNS\nBarcode: SLP-171082301\nPallet: 3 OF 4",
+      "jobId": "b4acd603-906d-4e5d-8520-744cebf630a2_3",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-28T18:55:35.718Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: UNFQ\nCustomer Number: SO218977\nP/L Number: UWS123669\nTotal Cartons: 470 CTNS\nBarcode: SLP-171082302\nPallet: 4 OF 4",
+      "jobId": "b4acd603-906d-4e5d-8520-744cebf630a2_4",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-28T18:56:37.947Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: UNFQ\nCustomer Number: SO218977\nP/L Number: UWS123669\nTotal Cartons: 470 CTNS\nBarcode: SLP-171082299\nPallet: 1 OF 4",
+      "jobId": "daca8da7-9346-41fa-8e4d-20bb919eb288_1",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-28T18:56:37.947Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: UNFQ\nCustomer Number: SO218977\nP/L Number: UWS123669\nTotal Cartons: 470 CTNS\nBarcode: SLP-171082300\nPallet: 2 OF 4",
+      "jobId": "daca8da7-9346-41fa-8e4d-20bb919eb288_2",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-28T18:56:37.947Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: UNFQ\nCustomer Number: SO218977\nP/L Number: UWS123669\nTotal Cartons: 470 CTNS\nBarcode: SLP-171082301\nPallet: 3 OF 4",
+      "jobId": "daca8da7-9346-41fa-8e4d-20bb919eb288_3",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-28T18:56:37.947Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: UNFQ\nCustomer Number: SO218977\nP/L Number: UWS123669\nTotal Cartons: 470 CTNS\nBarcode: SLP-171082302\nPallet: 4 OF 4",
+      "jobId": "daca8da7-9346-41fa-8e4d-20bb919eb288_4",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-28T19:13:54.979Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: UNFQ\nCustomer Number: SO218977\nP/L Number: UWS123669\nTotal Cartons: 470 CTNS\nBarcode: SLP-171082299\nPallet: 1 OF 4",
+      "jobId": "a72704b9-b48e-434f-9bee-d440be5f4e32_1",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-28T19:13:54.979Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: UNFQ\nCustomer Number: SO218977\nP/L Number: UWS123669\nTotal Cartons: 470 CTNS\nBarcode: SLP-171082300\nPallet: 2 OF 4",
+      "jobId": "a72704b9-b48e-434f-9bee-d440be5f4e32_2",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-28T19:13:54.979Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: UNFQ\nCustomer Number: SO218977\nP/L Number: UWS123669\nTotal Cartons: 470 CTNS\nBarcode: SLP-171082301\nPallet: 3 OF 4",
+      "jobId": "a72704b9-b48e-434f-9bee-d440be5f4e32_3",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-28T19:13:54.979Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: UNFQ\nCustomer Number: SO218977\nP/L Number: UWS123669\nTotal Cartons: 470 CTNS\nBarcode: SLP-171082302\nPallet: 4 OF 4",
+      "jobId": "a72704b9-b48e-434f-9bee-d440be5f4e32_4",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-28T19:14:27.949Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: UNFQ\nCustomer Number: SO218977\nP/L Number: UWS123669\nTotal Cartons: 470 CTNS\nBarcode: SLP-171082299\nPallet: 1 OF 4",
+      "jobId": "17f96138-ada6-4904-b9c0-2cae3d2c3cd9_1",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-28T19:14:27.949Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: UNFQ\nCustomer Number: SO218977\nP/L Number: UWS123669\nTotal Cartons: 470 CTNS\nBarcode: SLP-171082300\nPallet: 2 OF 4",
+      "jobId": "17f96138-ada6-4904-b9c0-2cae3d2c3cd9_2",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-28T19:14:27.949Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: UNFQ\nCustomer Number: SO218977\nP/L Number: UWS123669\nTotal Cartons: 470 CTNS\nBarcode: SLP-171082301\nPallet: 3 OF 4",
+      "jobId": "17f96138-ada6-4904-b9c0-2cae3d2c3cd9_3",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-28T19:14:27.949Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: UNFQ\nCustomer Number: SO218977\nP/L Number: UWS123669\nTotal Cartons: 470 CTNS\nBarcode: SLP-171082302\nPallet: 4 OF 4",
+      "jobId": "17f96138-ada6-4904-b9c0-2cae3d2c3cd9_4",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-28T19:19:31.831Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: UNFQ\nCustomer Number: SO218977\nP/L Number: UWS123669\nTotal Cartons: 470 CTNS\nBarcode: SLP-171082299\nPallet: 1 OF 4",
+      "jobId": "6d01e397-4c06-41dc-a39d-49948c3909ab_1",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-28T19:19:31.831Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: UNFQ\nCustomer Number: SO218977\nP/L Number: UWS123669\nTotal Cartons: 470 CTNS\nBarcode: SLP-171082300\nPallet: 2 OF 4",
+      "jobId": "6d01e397-4c06-41dc-a39d-49948c3909ab_2",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-28T19:19:31.831Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: UNFQ\nCustomer Number: SO218977\nP/L Number: UWS123669\nTotal Cartons: 470 CTNS\nBarcode: SLP-171082301\nPallet: 3 OF 4",
+      "jobId": "6d01e397-4c06-41dc-a39d-49948c3909ab_3",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-28T19:19:31.831Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "SCAC: UNFQ\nCustomer Number: SO218977\nP/L Number: UWS123669\nTotal Cartons: 470 CTNS\nBarcode: SLP-171082302\nPallet: 4 OF 4",
+      "jobId": "6d01e397-4c06-41dc-a39d-49948c3909ab_4",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-28T19:39:13.124Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "Order Number: DN-2618515\nFrom: ORGAIN, LLC.\n6800 Valley View,\nBuena Park\nCA 90620\nTo: UNFI West\nUNFI West #9435561830038\nGilroy CA 95020\nPO Number: 486358894\nSCAC: UNFQ\nCustomer Number: SO218977\nP/L Number: UWS123669\nTotal Cartons: 470 CTNS\nBarcode: SLP-171082299\nPallet: 1 OF 4",
+      "jobId": "bb8dc09f-5dcb-4a3c-b12f-e240e8711ffd_1",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-28T19:39:13.124Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "Order Number: DN-2618515\nFrom: ORGAIN, LLC.\n6800 Valley View,\nBuena Park\nCA 90620\nTo: UNFI West\nUNFI West #9435561830038\nGilroy CA 95020\nPO Number: 486358894\nSCAC: UNFQ\nCustomer Number: SO218977\nP/L Number: UWS123669\nTotal Cartons: 470 CTNS\nBarcode: SLP-171082300\nPallet: 2 OF 4",
+      "jobId": "bb8dc09f-5dcb-4a3c-b12f-e240e8711ffd_2",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-28T19:39:13.124Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "Order Number: DN-2618515\nFrom: ORGAIN, LLC.\n6800 Valley View,\nBuena Park\nCA 90620\nTo: UNFI West\nUNFI West #9435561830038\nGilroy CA 95020\nPO Number: 486358894\nSCAC: UNFQ\nCustomer Number: SO218977\nP/L Number: UWS123669\nTotal Cartons: 470 CTNS\nBarcode: SLP-171082301\nPallet: 3 OF 4",
+      "jobId": "bb8dc09f-5dcb-4a3c-b12f-e240e8711ffd_3",
+      "status": "success",
+      "copies": 1
+    },
+    {
+      "timestamp": "2025-05-28T19:39:13.124Z",
+      "username": "rshah",
+      "printerName": "ZDesigner ZD421-203dpi ZPL",
+      "content": "Order Number: DN-2618515\nFrom: ORGAIN, LLC.\n6800 Valley View,\nBuena Park\nCA 90620\nTo: UNFI West\nUNFI West #9435561830038\nGilroy CA 95020\nPO Number: 486358894\nSCAC: UNFQ\nCustomer Number: SO218977\nP/L Number: UWS123669\nTotal Cartons: 470 CTNS\nBarcode: SLP-171082302\nPallet: 4 OF 4",
+      "jobId": "bb8dc09f-5dcb-4a3c-b12f-e240e8711ffd_4",
+      "status": "success",
+      "copies": 1
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+pipeline {
+  agent any
+  stages {
+    stage('BuildStage') {
+        agent {
+            docker {
+                image 'electronuserland/builder:14-wine-07.23'
+                args '-u root:root'
+                reuseNode true
+            }
+        }
+        environment {
+          NODE_ENV = 'development'
+        }
+      stages {
+        stage('log version info') {
+            steps {
+              sh 'npm install'
+              sh 'find node_modules/sqlite3/lib/binding -type d'
+              sh 'cp -r lib/sqlite3/* node_modules/sqlite3/lib/binding/'
+              sh 'find node_modules/sqlite3/lib/binding -type d'
+              sh 'npm run electron:buildStage'
+            }
+       }
+      }
+    }
+    stage('DeployStage') {
+            steps {
+              sh 'cp dist_electron/latest.yml  /data/wisedoc/printconnect'
+              sh 'cp dist_electron/*LocalPrintConnectUnis*.exe /data/wisedoc/printconnect'
+              sh 'cp dist_electron/*LocalPrintConnectUnis*.msi /data/wisedoc/printconnect'
+              sh 'cp dist_electron/*LocalPrintConnectUnis*.exe.blockmap	 /data/wisedoc/printconnect'
+            }
+    }
+}
+}

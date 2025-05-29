@@ -1,0 +1,105 @@
+{
+  "name": "local_print_connect",
+  "version": "1.2.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "electron:buildUnis": "vue-cli-service electron:build --mode unis --windows",
+    "electron:buildSaas": "vue-cli-service electron:build --mode saas --windows",
+    "electron:buildLSO": "vue-cli-service electron:build --mode lso --windows",
+    "electron:buildStage": "vue-cli-service electron:build --mode stage --windows",
+    "electron:build": "vue-cli-service electron:build",
+    "electron:buildwindows": "vue-cli-service electron:build --windows",
+    "electron:serve": "vue-cli-service electron:serve --mode dev",
+    "postinstall": "electron-builder install-app-deps",
+    "postuninstall": "electron-builder install-app-deps"
+  },
+  "main": "background.js",
+  "dependencies": {
+    "async-lock": "^1.4.1",
+    "axios": "^0.24.0",
+    "core-js": "^3.6.5",
+    "dayjs": "^1.11.10",
+    "electron-rebuild": "^3.2.9",
+    "electron-store": "^8.0.1",
+    "electron-updater": "^5.0.5",
+    "element-plus": "^2.4.2",
+    "file-saver": "^2.0.5",
+    "handlebars": "^4.7.7",
+    "lodash": "^4.17.21",
+    "lowdb": "^1.0.0",
+    "moment": "^2.30.1",
+    "node-hid": "^3.1.0",
+    "pdf-to-printer": "^5.3.0",
+    "qrcode.vue": "^3.3.3",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.4",
+    "sqlite3": "5.1.6",
+    "uuid": "^3.4.0",
+    "vue": "^3.4.21",
+    "vue-class-component": "^8.0.0-0",
+    "vue-router": "^4.0.0-0",
+    "vuex": "^4.0.0-0",
+    "xlsx": "^0.13.5"
+  },
+  "devDependencies": {
+    "@types/electron-devtools-installer": "^2.2.0",
+    "@types/file-saver": "^2.0.7",
+    "@types/lowdb": "^1.0.11",
+    "@types/uuid": "^8.3.4",
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "electron": "^13.6.9",
+    "electron-devtools-installer": "^3.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.0.0",
+    "prettier": "^2.2.1",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
+    "typescript": "^4.1.6",
+    "vue-cli-plugin-electron-builder": "~2.1.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended",
+      "@vue/typescript/recommended",
+      "@vue/prettier",
+      "@vue/prettier/@typescript-eslint"
+    ],
+    "globals": {
+      "defineEmits": "readonly",
+      "defineProps": "readonly",
+      "defineExpose": "readonly",
+      "defineModel": "readonly",
+      "withDefaults": "readonly"
+    },
+    "parserOptions": {
+      "ecmaVersion": 2020
+    },
+    "rules": {
+      "@typescript-eslint/ban-ts-comment": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
