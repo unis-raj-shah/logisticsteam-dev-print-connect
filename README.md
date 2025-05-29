@@ -8,5 +8,5 @@ npm install
 npm run electron:serve
 
 <h2>Compiles and minifies for production</h2>
-npm run electron:buildSaas
-npm run electron:buildUnis
+npm run electron:buildSaas<br>
+npm run electron:buildUnis<br>
